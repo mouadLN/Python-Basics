@@ -33,10 +33,13 @@ while True :
         print(mul(a,b))
         
     if opp == "/" :
-        print(div(a,b))
-        
         if b == 0 :
             print("divising by 0 is not possible")
+        else :
+            print(div(a,b))
+        
+        
+            
     if opp == "**" :
         print(carr(a,b))
     
